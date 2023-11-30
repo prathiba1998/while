@@ -1,0 +1,22 @@
+#program to print different vowels present in the given words and count of vowels
+
+s=input("enter the string: ")
+vowels="aeiouAEIOU"
+count=0
+a=list([x for x in s if x in vowels])
+count=list([x for x in s if x in vowels])
+print("vowels contain in string is: ",a) 
+print("vowels count in a string is : ",len(count))   
+
+
+
+#program to enter the name and % of marks in a dict and display into on the screen
+num=3
+d={}
+for i in range(num):
+    name=input("enter the name: ")
+    marks=int(input("enter the % of marks: "))
+    d[name]=marks
+for j,k, in d.items():
+    print("name: ",j,"and","% of marks: ",k)
+    
