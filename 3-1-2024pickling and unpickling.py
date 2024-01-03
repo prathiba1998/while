@@ -17,7 +17,7 @@ class student:
     def display(self):
         print(self.srollno,"/t",self.sname,"/t",self.smark)
 
-with open("emp.data","wb") as p:
+with open("student.data","wb") as p:
     e=student(233,"prathi",100)
     b=student(244,"ram",200)   
     pickle.dump(e,p)
